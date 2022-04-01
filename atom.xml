@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://github.com/LinQisan/LOTUS</id>
+    <id>https://LOTUS</id>
     <title>Gridea</title>
-    <updated>2022-04-01T17:06:50.102Z</updated>
+    <updated>2022-04-01T17:08:28.756Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://github.com/LinQisan/LOTUS"/>
-    <link rel="self" href="https://github.com/LinQisan/LOTUS/atom.xml"/>
+    <link rel="alternate" href="https://LOTUS"/>
+    <link rel="self" href="https://LOTUS/atom.xml"/>
     <subtitle>温故而知新</subtitle>
-    <logo>https://github.com/LinQisan/LOTUS/images/avatar.png</logo>
-    <icon>https://github.com/LinQisan/LOTUS/favicon.ico</icon>
+    <logo>https://LOTUS/images/avatar.png</logo>
+    <icon>https://LOTUS/favicon.ico</icon>
     <rights>All rights reserved 2022, Gridea</rights>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
-        <id>https://github.com/LinQisan/LOTUS/post/hello-gridea/</id>
-        <link href="https://github.com/LinQisan/LOTUS/post/hello-gridea/">
+        <id>https://LOTUS/post/hello-gridea/</id>
+        <link href="https://LOTUS/post/hello-gridea/">
         </link>
         <updated>2018-12-11T16:00:00.000Z</updated>
         <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
