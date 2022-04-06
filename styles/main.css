@@ -989,10 +989,18 @@ td {
       }
     
       body {
-        font-family: -apple-system,BlinkMacSystemFont,'Helvetica Neue','PingFang SC','Hiragino Sans GB','Droid Sans Fallback','Microsoft YaHei',sans-serif;
+        font-family: Georgia, serif;
+      }
+    
+      .main {
+        background: #EEA9A9;
       }
     
       body {
         background: #FEDFE1;
+      }
+    
+      a:hover {
+        color: #90B44B;
       }
     
