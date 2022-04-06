@@ -412,6 +412,7 @@ td {
   letter-spacing: 0.02em;
 }
 .post-container .post .post-info {
+  font-family: "PingFang SC";
   text-align: center;
   font-size: 12px;
   padding-bottom: 24px;
