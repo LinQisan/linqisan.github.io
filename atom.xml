@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://linqisan.github.io</id>
     <title>Lotus</title>
-    <updated>2022-04-03T08:38:21.076Z</updated>
+    <updated>2022-04-06T05:07:04.093Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://linqisan.github.io"/>
     <link rel="self" href="https://linqisan.github.io/atom.xml"/>
@@ -11,12 +11,12 @@
     <icon>https://linqisan.github.io/favicon.ico</icon>
     <rights>All rights reserved 2022, Lotus</rights>
     <entry>
-        <title type="html"><![CDATA[我非常好]]></title>
+        <title type="html"><![CDATA[论字典的重要性]]></title>
         <id>https://linqisan.github.io/post/hello-gridea/</id>
         <link href="https://linqisan.github.io/post/hello-gridea/">
         </link>
         <updated>2018-12-11T16:00:00.000Z</updated>
-        <content type="html"><![CDATA[<p>去年的</p>
+        <content type="html"><![CDATA[<p>http://wx4.sinaimg.cn/large/007YkwJMgy1h0zx50bgyrj323g1g0hbc.jpg</p>
 ]]></content>
     </entry>
 </feed>
