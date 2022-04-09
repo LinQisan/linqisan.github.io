@@ -405,7 +405,7 @@ td {
   padding-bottom: 32px;
 }
 .post-container .post .post-title {
-  font-family: "PingFang SC"
+  font-family: "PingFang SC";
   font-size: 28px;
   text-align: center;
   padding: 24px 0;
@@ -993,6 +993,7 @@ td {
         text-align: left;
       }
       .post-detail .post .post-title {
+        font-family: "PingFang SC";
         text-align: left;
       }
       .post-detail .post .post-info {
