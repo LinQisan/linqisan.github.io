@@ -306,7 +306,7 @@ html {
 }
 body {
   color: rgba(0, 0, 0, 0.86);
-  font: 400 16px/1.42 -apple-system, BlinkMacSystemFont, "Helvetica Neue", "PingFang SC", "Hiragino Sans GB", "Droid Sans Fallback", "Microsoft YaHei", sans-serif;
+  font: 400 16px/1.42 -apple-system, BlinkMacSystemFont, "PingFang SC", "Helvetica Neue", "Hiragino Sans GB", "Droid Sans Fallback", "Microsoft YaHei", sans-serif;
   letter-spacing: 0.05em;
 }
 a {
@@ -405,6 +405,7 @@ td {
   padding-bottom: 32px;
 }
 .post-container .post .post-title {
+  font-family: "PingFang SC"
   font-size: 28px;
   text-align: center;
   padding: 24px 0;
