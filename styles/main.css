@@ -981,7 +981,7 @@ td {
         max-width: 66%;
       }
     
-      .post-detail .post .post-content p {
+      .post-detail .post .post-content{
         font-size: 18px;
       }
     
@@ -999,6 +999,10 @@ td {
       .post-detail .post .post-info {
         font-family: "PingFang SC";
         text-align: left;
+      }
+      .post-detail .post .post-eng {
+        font-family: "PingFang SC";
+        text-align: justify;
       }
     
       body {
