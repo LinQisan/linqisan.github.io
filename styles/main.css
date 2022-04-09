@@ -1003,6 +1003,8 @@ td {
       .post-detail .post .post-eng {
         font-family: "PingFang SC";
         text-align: justify;
+        padding-right: 20px;
+        padding-left: 20px;
       }
     
       body {
