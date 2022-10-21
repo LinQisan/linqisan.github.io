@@ -1,0 +1,87 @@
+/* UTILITIES */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box
+}
+
+body {
+  color: #444;
+  font-family: LXGWWenKai;
+  font-weight: bold;
+  background-color: #292e49;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.main-header {
+  background-color: #bbd2c5;
+  padding: 20px 40px;
+  border-radius: 20px;
+  margin-bottom: 60px;
+}
+
+h1 {
+  float: left;
+}
+
+nav {
+  /* margin: 0 auto; */
+  font-size: 24px;
+
+  float: right;
+}
+
+.logo {
+  display: inline-block;
+  margin-left: 30px;
+}
+
+a:link {
+  display: inline-block;
+  padding: 5px 14px;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: #4c9e9e;
+  border-radius: 5px;
+}
+
+a:active {
+  color: #292e49;
+}
+
+.clearfix::after {
+  content: '';
+  clear: both;
+  display: block;
+}
+
+/* 控制 logo 旋转动画 */
+#loading-img {
+  /*animation (动画) :绑定选择器, 4s完成动画 linear(匀速) infinite(循环) */
+  width: 4%;
+  animation: loading 60s linear infinite;
+}
+
+/*通过@keyframes规则,能够创建动画 , que 定义动画的名称 可自己定义*/
+@keyframes loading {
+
+  /*以百分比来规定改变发生的时间 也可以通过"from"和"to",等价于0% 和 100%*/
+  0% {
+    /*rotate(2D旋转) scale(放大或者缩小) translate(移动) skew(翻转)*/
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.time {
+  margin-left: 30px;
+}
