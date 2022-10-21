@@ -18,53 +18,48 @@ body {
 }
 
 .main-header {
+  display: flex;
   background-color: #bbd2c5;
+  align-items: center;
   padding: 20px 40px;
   border-radius: 20px;
   margin-bottom: 60px;
+  justify-content: space-between;
 }
 
-h1 {
-  float: left;
+.header-logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.el {
+  flex: 0 0 100px;
 }
 
 nav {
-  /* margin: 0 auto; */
   font-size: 24px;
-
-  float: right;
 }
 
-.logo {
-  display: inline-block;
-  margin-left: 30px;
-}
+
 
 a:link {
-  display: inline-block;
+  color: #f7f1e3;
+  /* display: inline-block; */
   padding: 5px 14px;
   text-decoration: none;
 }
 
 a:hover {
-  background-color: #4c9e9e;
+  background-color: #292e4918;
   border-radius: 5px;
-}
-
-a:active {
-  color: #292e49;
-}
-
-.clearfix::after {
-  content: '';
-  clear: both;
-  display: block;
 }
 
 /* 控制 logo 旋转动画 */
 #loading-img {
   /*animation (动画) :绑定选择器, 4s完成动画 linear(匀速) infinite(循环) */
-  width: 4%;
+
   animation: loading 60s linear infinite;
 }
 
@@ -82,9 +77,7 @@ a:active {
   }
 }
 
-.time {
-  margin-left: 30px;
-}
+
 
 .container-2 {
   width: 50%;

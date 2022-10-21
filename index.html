@@ -14,17 +14,19 @@
   <title>高达屹立于大地之上</title>
 </head>
 
-<body>
+<body onload="startTime()">
   <div class="container">
-    <header class="main-header clearfix">
-      <h1 class="logo">LOTUS</h1>
-      <img id="loading-img" src="Lotus-01.png" alt="Lotus">
-      <nav>
-        <a href="#">影</a>
-        <a href="#">梦</a>
-        <a href="#">茶</a>
+    <header class="el main-header">
+      <div class="header-logo">
+        <h1>LOTUS</h1>
+        <img id="loading-img" src="Lotus-01.png" alt="Lotus">
+        <p id="txt"></p>
+      </div>
+      <nav class="el">
+        <a target="#">影</a>
+        <a target="#">梦</a>
+        <a target="#">茶</a>
       </nav>
-      <p class="time">{{ currentTime() }}</p>
     </header>
   </div>
   <div class="container-2">

@@ -10,15 +10,30 @@ Example: The binary representation of 1234 is 10011010010, so the function shoul
 //   return binary ? binary.length : 0
 // }
 // eslint-disable-next-line no-undef
-const time = Vue.createApp({
-  methods: {
-    currentTime() {
-      return `${new Date().getHours()}时${String(new Date().getMinutes()).padStart(2, 0)}分${String(new Date().getSeconds()).padStart(2, 0)}秒`;
-    },
-  },
-})
-time.mount('.main-header')
+// const time = Vue.createApp({
+//   methods: {
+//     currentTime() {
+//       return `${new Date().getHours()}时${String(new Date().getMinutes()).padStart(2, 0)}分${String(new Date().getSeconds()).padStart(2, 0)}秒`;
+//     },
+//   },
+// })
+// time.mount('.main-header')
 
+function startTime() {
+  let today = new Date();
+  let h = today.getHours();
+  let m = today.getMinutes();
+  let s = today.getSeconds();
+  m = checkTime(m);
+  s = checkTime(s);
+  document.getElementById('txt').innerHTML =
+    h + ":" + m + ":" + s;
+  let t = setTimeout(startTime, 500);
+}
+function checkTime(i) {
+  if (i < 10) { i = "0" + i };  // add zero in front of numbers < 10
+  return i;
+}
 
 const movie = Vue.createApp({
   data() {
