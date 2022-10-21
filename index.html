@@ -19,15 +19,26 @@
     <header class="main-header clearfix">
       <h1 class="logo">LOTUS</h1>
       <img id="loading-img" src="Lotus-01.png" alt="Lotus">
-
       <nav>
-
         <a href="#">影</a>
         <a href="#">梦</a>
         <a href="#">茶</a>
       </nav>
       <p class="time">{{ currentTime() }}</p>
     </header>
+  </div>
+  <div class="container-2">
+    <section id="movie">
+      <img v-bind:src="imgUrl" />
+      <h2>{{ film }}</h2>
+      <p>{{ director }}｜{{ releaseYear }}</p>
+      <p>上映 {{ countdown() }} 周年</p>
+      <button v-on:click="addTime()">已看</button>
+      <button v-on:click="reduceTime()">未看</button>
+      <p>看了 {{ watchTimes }} 次</p>
+      <p>{{ name }}</p>
+      <input type="text" v-on:input="setName($event, '评论：')" />
+    </section>
   </div>
 </body>
 

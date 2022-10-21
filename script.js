@@ -18,3 +18,32 @@ const time = Vue.createApp({
   },
 })
 time.mount('.main-header')
+
+
+const movie = Vue.createApp({
+  data() {
+    return {
+      film: '千年女优',
+      director: '今敏',
+      releaseYear: 2002,
+      imgUrl: 'https://arielhsu.tw/wp-content/uploads/20210202194826_70.jpg',
+      watchTimes: 0,
+      name: '',
+    };
+  },
+  methods: {
+    setName(event, text) {
+      this.name = text + event.target.value;
+    },
+    countdown() {
+      return new Date().getFullYear() - this.releaseYear;
+    },
+    addTime(n = 1) {
+      this.watchTimes += n;
+    },
+    reduceTime(n = 1) {
+      this.watchTimes !== 0 ? (this.watchTimes -= n) : 0;
+    },
+  },
+});
+movie.mount('#movie');

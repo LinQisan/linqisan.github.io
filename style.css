@@ -85,3 +85,69 @@ a:active {
 .time {
   margin-left: 30px;
 }
+
+.container-2 {
+  width: 50%;
+  margin: auto;
+  background-color: #292e49;
+  border-radius: 20px;
+}
+
+section {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  margin: 3rem;
+  border-radius: 10px;
+  padding: 1rem;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2rem;
+  color: #bbd2c5;
+  margin: 0 0 1rem 0;
+}
+
+#movie p {
+  width: 40%;
+  margin: 0 auto 1em;
+  font-size: 1.25rem;
+  font-weight: bold;
+
+  padding: 0.5rem;
+  color: #bbd2c5;
+  border-radius: 20px;
+}
+
+input {
+  font: inherit;
+  border: 1px solid #ccc;
+}
+
+input:focus {
+  outline: none;
+
+  background-color: #d7fdeb;
+}
+
+button {
+  font: inherit;
+  cursor: pointer;
+  border: 1px solid #42e25a00;
+  background-color: #4c9e9e;
+  color: #bbd2c5;
+  padding: 0.05rem 1rem;
+
+  margin: 0 auto 1em;
+  border-radius: 10px;
+}
+
+button:hover,
+button:active {
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.26);
+}
+
+#movie img {
+  width: 80%;
+  margin: 0 auto 2em;
+  border-radius: 5%;
+}
