@@ -1,3 +1,4 @@
 node_modules
 PigGame
 .DS_Store
+/lotus.code-workspace
