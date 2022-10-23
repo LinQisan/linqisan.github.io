@@ -1,9 +1,8 @@
 <!DOCTYPE html>
 <html lang="zh-Hans">
-̦̦
 
 <head>
-  <meta charset="UTF-8" />
+  <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet"
@@ -14,33 +13,41 @@
   <title>高达屹立于大地之上</title>
 </head>
 
-<body onload="startTime()">
+<body>
   <div class="container">
-    <header class="el main-header">
+    <div class="container-1">
       <div class="header-logo">
         <h1>LOTUS</h1>
-        <img id="loading-img" src="Lotus-01.png" alt="Lotus">
-        <p id="txt"></p>
+        <span id="time"></span>
       </div>
+
+      <header>
+        <h2>さようなら</h2>
+        <div class="article-detail">
+          <div class="article-author">
+            <p>今敏</p><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+              stroke="currentColor" class="icon-write">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="M16.862 4.487l1.687-1.688a1.875 1.875 0 112.652 2.652L10.582 16.07a4.5 4.5 0 01-1.897 1.13L6 18l.8-2.685a4.5 4.5 0 011.13-1.897l8.932-8.931zm0 0L19.5 7.125M18 14v4.75A2.25 2.25 0 0115.75 21H5.25A2.25 2.25 0 013 18.75V8.25A2.25 2.25 0 015.25 6H10">
+              </path>
+            </svg>
+          </div>
+          <div class="article-time">
+            <p>2010.08.25</p><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+              stroke="currentColor" class="icon-write">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z">
+              </path>
+            </svg>
+          </div>
+        </div>
+      </header>
       <nav class="el">
-        <a target="#">影</a>
-        <a target="#">梦</a>
-        <a target="#">茶</a>
+        <a class="btn btn--big" href="#">影</a>
+        <a class="btn btn--big" href="#">茶</a>
+        <a class="btn btn--big" href="#">梦</a>
+        <a class="btn btn--big" href="#">な</a>
       </nav>
-    </header>
-  </div>
-  <div class="container-2">
-    <section id="movie">
-      <img v-bind:src="imgUrl" />
-      <h2>{{ film }}</h2>
-      <p>{{ director }}｜{{ releaseYear }}</p>
-      <p>上映 {{ countdown() }} 周年</p>
-      <button v-on:click="addTime()">已看</button>
-      <button v-on:click="reduceTime()">未看</button>
-      <p>看了 {{ watchTimes }} 次</p>
-      <p>{{ name }}</p>
-      <input type="text" v-on:input="setName($event, '评论：')" />
-    </section>
+    </div>
   </div>
 </body>
 
