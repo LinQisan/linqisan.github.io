@@ -1,12 +1,3 @@
-// function startTime() {
-//   const today = new Date();
-//   const h = String(today.getHours()).padStart(2, 0);
-//   const m = String(today.getMinutes()).padStart(2, 0);
-//   const s = String(today.getSeconds()).padStart(2, 0);
-//   document.getElementById('time').innerHTML = `${h}时${m}分${s}秒`
-//   setTimeout(startTime, 500);
-// }
-// startTime()
 setInterval(function () {
   const now = new Date()
   const strTime = function (num) { return String(num).padStart(2, 0) }
