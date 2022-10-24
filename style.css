@@ -10,9 +10,8 @@ html {
 
 body {
   color: #343a40;
-  /* font-family: LXGWWenKai; */
-  font-family: "Inter", sans-serif;
-  font-weight: bold;
+  font-family: sans-serif;
+  font-weight: 400;
 }
 
 /* 网页内容居中 */

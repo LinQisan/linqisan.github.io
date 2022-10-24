@@ -1,4 +1,6 @@
 node_modules
-PigGame
+dist
+.parcel-cache
 .DS_Store
-/lotus.code-workspace
+lotus.code-workspace
+.vscode
