@@ -84,6 +84,3 @@ body {
   grid-template-columns: repeat(2,1fr);
   gap: 9px;
 }
-.margintop-sm {
-  margin-top: 26rem;
-}

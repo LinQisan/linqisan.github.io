@@ -1,0 +1,31 @@
+/* 650px */
+@media (max-width:41em){
+  html{
+    font-size: 9px;
+  }
+
+  .header {
+    margin: 2rem 3rem 1rem 3rem;
+
+    justify-content: space-between;
+  }
+
+  .article-title{
+    font-family: "LXGW WenKai", sans-serif;
+    font-weight: 800;
+    font-size: 4.8rem;
+    letter-spacing: 0.2rem;
+  }
+
+  .article-poster{
+    height: 50%;
+  }
+  
+  .article{
+    font-size: 1.6rem;
+    width: 40rem;
+    letter-spacing: 0.1rem;
+    line-height: 1.5;
+  }
+
+}
