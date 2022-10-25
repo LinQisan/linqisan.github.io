@@ -1,11 +1,11 @@
-setInterval(function () {
-  const now = new Date()
-  const strTime = function (num) { return String(num).padStart(2, 0) }
-  const h = strTime(now.getHours())
-  const m = strTime(now.getMinutes())
-  const s = strTime(now.getSeconds())
-  document.getElementById('time').innerHTML = `${h}:${m}:${s}`
-}, 250)
+// setInterval(function () {
+//   const now = new Date()
+//   const strTime = function (num) { return String(num).padStart(2, 0) }
+//   const h = strTime(now.getHours())
+//   const m = strTime(now.getMinutes())
+//   const s = strTime(now.getSeconds())
+//   document.getElementById('time').innerHTML = `${h}:${m}:${s}`
+// }, 250)
 
 // const movie = Vue.createApp({
 //   data() {
