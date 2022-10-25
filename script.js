@@ -26,8 +26,17 @@
 //   },
 // });
 // movie.mount('#movie');
-
-
+const allLinks = document.querySelectorAll('a:link')
+allLinks.forEach(function (link) {
+  link.addEventListener('click', function (e) {
+    e.preventDefault()
+    const href = link.getAttribute('href')
+    if (href !== '#' && href.startsWith('#')) {
+      const sectionEl = document.querySelector(href)
+      sectionEl.scrollIntoView({ behavior: "smooth" })
+    }
+  })
+})
 
 const gua = function (i = 6) {
   // const yao1 = Math.trunc(Math.random() * 2)

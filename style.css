@@ -82,7 +82,8 @@
   font-size: 2rem;
   font-weight: 800;
   display: flex;
-  gap:5px
+  gap:0.5rem
+  
 }
 .icon-write{
   height: 2rem;
